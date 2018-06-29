@@ -1,0 +1,11 @@
+ 
+El marco teórico:
+
+La lagartija verde, Anolis carolinenesis, tiene cromosomas sexuales del tipo XY. Tenemos, además, el genoma completamente secuenciado de una hembra (XX). El genoma no es excelente y tiene muchos fragmentos (scaffolds) que no tienen un cromosoma asignado.
+
+Sin embargo, en la tabla Scaffolds_cromosoma_X que te anexo viene la lista de scaffolds que corresponden al cromosoma X. No conocemos el órden, pero sabemos que todos ellos de alguna forma conforman ese cromosoma. Este es el cromosoma que se está encendiendo al doble en machos y creemos tiene una composición distinta al resto del genoma.
+
+Entonces, la idea es la siguiente.
+
+Analizar los k-meros del cromosoma X (desde palabras de 3 nucleótidos hasta palabras de 30, 40, 50 ó 60 nucleótidos) y determinar si hay k-meros que están sobrerepresentados en el cromosoma X y que están subrepresentados en el resto del genoma.
+
